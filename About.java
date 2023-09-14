@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package notepad;
 
 import javax.swing.*;
@@ -30,7 +26,7 @@ public class About extends JFrame implements ActionListener{
         add(l2);
         
         
-        JLabel l3 = new JLabel("<html>Code for Interview<br>Youtube Channel Version 2021<br>2021 Code for Interview. All rights reserved<br><br>Notepad is a word processing program, <br>which allows changing of text in a computer file.<br>Notepad is a simple text editor for basic text-editing program<br> which enables computer users to create documents. </html>");
+        JLabel l3 = new JLabel("<html>Made By Kartik Talwar<br>Thapar 2024 Batch. All rights reserved<br><br>Notepad is a word processing program, <br>which allows changing of text in a computer file.<br>Notepad is a simple text editor for basic text-editing program<br> which enables computer users to create documents. </html>");
         l3.setFont(new Font("SAN_SERIF", Font.PLAIN, 18));
         l3.setBounds(150, 130, 500, 300);
         add(l3);
